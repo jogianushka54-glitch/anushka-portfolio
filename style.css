@@ -1,0 +1,153 @@
+        body{
+            background: lightgray;
+            font-family:Arial,sans-serif
+        }
+        h1{
+            color: rgb(7, 7, 214);
+            text-align: center;
+        }
+        p{
+            font-size:18px;
+        }
+        nav {
+           display:flex;
+           justify-content:center;
+           gap:20px;
+           background-color: white;
+           padding: 10px;
+           border-radius: 10px;
+        }
+        a{
+           text-decoration: none;
+           color:darkred;
+           font-weight:bold;
+           margin:10px;
+        }
+        img{
+            display:block;
+            margin:20px auto;
+            border-radius: 50%;
+        }
+        table{
+            margin:auto;
+            border-collapse:collapse;
+            background-color: white;
+            border-radius: 10px;
+            overflow:hidden;
+        }
+        th, td{
+            padding:10px;
+            border:1px solid black;
+        }
+        form{
+            border-radius:10px;
+            padding:15px;
+            width:60%;
+            margin:auto;
+        }
+        header{
+            text-align:center;
+            margin-bottom:20px;
+        }
+        
+        a:hover{
+            color:blue
+        }
+        .hero{
+            text-align:center;
+            margin:20px;
+            background-color: white;
+            padding: 40px;
+            border-radius: 10px;
+        }
+        .btn{
+            display:inline-block;
+            margin-top:15px;
+            padding:10px 20px;
+            background-color:darkred;
+            color:white;
+            text-decoration:none;
+            border-radius:5px;
+        }
+        .btn:hover{
+            background-color:blue;
+        }   
+        .projects{
+            text-align:center;
+            margin:30px;
+        }
+        .project-container{
+            display:flex;
+            justify-content:center;
+            gap:20px;
+            flex-wrap:wrap;
+        }
+        .project-card{
+            background-color: white;
+            padding:20px;
+            width:220px;
+            border-radius:10px;
+        }
+        .project-card:hover{
+            transform:scale(1.05);
+        }
+
+            body{
+                background-color:linear-gradient(to right, #dfe9f3, #ffffff);
+                font-family:Arial,sans-serif;
+            }
+            h2,h3{
+                text-align:center;
+            }
+            ul{
+                width:50%;
+                margin:auto;
+                font-size:18px;
+            }
+            li{
+                margin:10px;
+            }
+            footer{
+                text-align:center;
+                margin-top:20px;    
+            }
+            .skills-container{
+                display:flex;
+                justify-content:center;
+                gap:20px;
+                flex-wrap:wrap;
+            }
+             .card {
+                background-color: white;
+                padding:20px;
+                border-radius:10px;
+                 width:200px;
+                 text-align: center;
+             }
+             .card:hover{
+                transform:scale(1.05);
+             }
+            section{
+                margin:20px;
+            }
+        .card, .project-card, .hero{
+            box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+        }
+        .about{
+            background-color:white;
+            padding:20px;
+            margin:20px;
+            border-radius:10px;
+            text-align:center;
+        }
+        .profile{
+            text-align:center;
+            margin:20px;
+        }
+        footer{
+            text-align:center;
+            margin-top:30px;
+            padding:10px;
+            background-color: white;
+            border-radius: 10px;
+        }
